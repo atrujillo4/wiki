@@ -1,3 +1,5 @@
 markdown2
 gunicorn
 requests
+django-heroku
+psycopg2
