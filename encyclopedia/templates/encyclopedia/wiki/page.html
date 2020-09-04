@@ -1,0 +1,27 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    
+    {{ html | safe }}
+    {% if html %}
+        <form action="{{title}}/edit">
+            <input type="hidden" id="title" name="title" value="{{ title }}">
+            <input type="submit" value="Edit"> 
+        </form>
+    {% else %}
+        <p>Page Not Found</p>
+        <form action="{% url 'index' %}">
+            <input type="submit" value="Back">
+        </form>
+        
+    {% endif%}
+    
+    
+        
+    
+    
+{% endblock %}
