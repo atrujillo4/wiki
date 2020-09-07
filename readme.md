@@ -1,5 +1,5 @@
 **Background**: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This web application is an online encyclopedia where users can view pages about certain topics. Users are also about to create and edit pages using Markdown text that will be converted to normal text that anyone can understand once the save is saved. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This web application is an online encyclopedia where users can view pages about certain topics. Users are also able to create and edit pages using Markdown text that will be converted to normal text that anyone can understand once the save is saved. 
 
 ---------------------------------------------------------------------
 **Implementations**: <br>
